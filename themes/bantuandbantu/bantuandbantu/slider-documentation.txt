@@ -1,0 +1,4 @@
+Slider documentation:
+
+data-autoplay= allowed options are „true“ and „false“
+data-slider-timeout = controls the speed of sliding (milliseconds); now it is set to 2000 – 2 seconds

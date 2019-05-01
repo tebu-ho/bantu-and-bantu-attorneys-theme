@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^bantuandbantu\.creativegemini\.co\.za$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bantuandbantu\.creativegemini\.co\.za$
+RewriteRule ^/?$ "http\:\/\/www\.creativegemini\.co\.za\/bantuandbantu" [R=301,L]
+
